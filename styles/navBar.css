@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .inputBox {
+      width: calc(100vw - 60px); 
+    }
+  }
+
+  .dropdown {
+    @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg min-w-[210px] flex flex-col gap-6 justify-start items-start bg-black/60 border-2 border-white;
+  }
+  
+  .dropdown_link {
+    @apply text-sm font-sanpro text-white hover:text-gray-500 font-bold;
+  }
+  
+  .navIcon {
+    @apply m-auto pb-2 transition duration-1000 group-hover:-translate-y-1;
+  }
+
+  .tableTitle {
+    @apply font-semibold border-b pb-6 text-center hover:text-red-600
+  }
+
+  .tableCol {
+    @apply flex flex-col gap-3
+  }
+
+  .tableTitle2 {
+    @apply font-semibold border-b pb-2 text-center hover:text-red-600
+  }

@@ -1,0 +1,50 @@
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom:22px solid white;
+    transform: rotate(-90deg);
+  }
+
+  .triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 26px solid transparent;
+    border-right: 26px solid transparent;
+    border-bottom:30px solid white;
+    transform: rotate(-90deg);
+  }
+
+  
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+   .animate-marquee {
+    animation: marquee 5s linear infinite;
+  }
+
+  @keyframes marqueeMD {
+    0% { transform: translateX(160%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .animate-marqueeMD {
+    animation: marqueeMD 5s linear infinite;
+  }
+
+  @media (max-width: 1000px) {
+    .dynamicWidth {
+      width: calc(100vw - 100px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hide-extra-items div:not(.active) {
+      display: none;
+    }
+  }
