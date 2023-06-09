@@ -48,3 +48,7 @@
       display: none;
     }
   }
+
+  .saleBannerSm {
+    @apply sm:w-[370px] sm:h-[96px] m-auto
+  }
