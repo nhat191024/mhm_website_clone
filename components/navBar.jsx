@@ -216,7 +216,7 @@ const navBar = () => {
                 />
 
                 {toggleDropdown && (
-                    <div className="absolute right-0 top-full mt-3 w-full p-5 rounded-lg min-w-[300px] flex flex-col gap-6 justify-start items-start bg-black/60 border-2 border-white">
+                    <div className="absolute right-0 top-full mt-3 w-full p-5 rounded-lg min-w-[300px] flex flex-col gap-6 justify-start items-start bg-black/60 border-2 border-white z-10">
                         <Link href="/" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
                         >
                             ĐIỆN THOẠI
@@ -236,7 +236,7 @@ const navBar = () => {
                                 alt="plus icon"
                                 width={20}
                                 height={20}
-                                className=" ml-28"
+                                className=" ml-[120px]"
                             />
                         </Link>
                         <Link href="/" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
