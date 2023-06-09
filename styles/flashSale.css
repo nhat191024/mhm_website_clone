@@ -1,0 +1,19 @@
+.flashSaleTime h1 {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+
+.flashSaleTime span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.productCard{
+    @apply w-[180px] sm:w-[220px] h-[344px] border shadow-md rounded-lg mb-2 mx-2 flex flex-col items-center
+}
+
+.productCardName {
+    @apply text-lg font-normal text-left mx-4 sm:mt-8 mt-4 sm:hover:text-red-600;
+}
