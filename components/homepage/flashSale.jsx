@@ -2,13 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { register } from "swiper/element/bundle";
-register();
 import Image from 'next/image';
 import '@styles/flashSale.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/zoom';
 import data from '@utils/fakedata.json'
 
 const flashSale = () => {
@@ -72,14 +69,16 @@ const flashSale = () => {
             {flashSaleData.map((item, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className='productCard'>
-                    <img src={item.image} alt="flashSaleProductImg" className='w-[200px] h-[200px] mt-3 transition duration-1000 hover:scale-[1.1]' />
-                    <span className='productCardName'>{item.name}</span>
-                    <div className='flex gap-3 items-end text-left w-full ml-8'>
-                      <span className='text-red-800 text-xl font-bold'>{item.sale}</span>
-                      <span className='line-through text-gray-400'>{item.price}</span>
+                  {item.onSale === true ?
+                    <div className='flashSaleCard'>
+                      <img src={item.image} alt="flashSaleProductImg" loading='lazy' className='w-[200px] h-[200px] mt-3 transition duration-1000 hover:scale-[1.1]' />
+                      <span className='flashSaleName'>{item.name}</span>
+                      <div className='flex gap-3 items-end text-left w-full ml-8'>
+                        <span className='text-red-800 text-xl font-bold'>{item.sale}</span>
+                        <span className='line-through text-gray-400'>{item.price}</span>
+                      </div>
                     </div>
-                  </div>
+                    : null}
                 </SwiperSlide>
               )
             })}
@@ -101,14 +100,16 @@ const flashSale = () => {
             {flashSaleData.map((item, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className='productCard'>
-                    <img src={item.image} alt="flashSaleProductImg" className='w-[200px] h-[200px] mt-3 transition duration-1000 hover:scale-[1.1]' />
-                    <span className='productCardName'>{item.name}</span>
-                    <div className='flex gap-3 items-end text-left w-full ml-8'>
-                      <span className='text-red-800 text-xl font-bold'>{item.sale}</span>
-                      <span className='line-through text-gray-400'>{item.price}</span>
+                  {item.onSale === true ?
+                    <div className='flashSaleCard'>
+                      <img src={item.image} alt="flashSaleProductImg" loading='lazy' className='sm:w-[200px] sm:h-[200px] w-[180px] h-[180px] mt-3 transition duration-1000 sm:hover:scale-[1.1]' />
+                      <span className='flashSaleName'>{item.name}</span>
+                      <div className='flex gap-2 text-left w-full ml-8'>
+                        <span className='text-red-800 text-xl font-bold'>{item.sale}</span>
+                        <span className='line-through text-gray-400'>{item.price}</span>
+                      </div>
                     </div>
-                  </div>
+                    : null}
                 </SwiperSlide>
               )
             })}
@@ -129,14 +130,16 @@ const flashSale = () => {
             {flashSaleData.map((item, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className='productCard'>
-                    <img src={item.image} alt="flashSaleProductImg" className='sm:w-[200px] sm:h-[200px] w-[180px] h-[180px]  mt-3 transition duration-1000 sm:hover:scale-[1.1]' />
-                    <span className='productCardName'>{item.name}</span>
-                    <div className='flex flex-col text-left w-full ml-8'>
-                      <span className='text-red-800 text-xl font-bold'>{item.sale}</span>
-                      <span className='line-through text-gray-400'>{item.price}</span>
+                  {item.onSale === true ?
+                    <div className='flashSaleCard'>
+                      <img src={item.image} alt="flashSaleProductImg" loading='lazy' className='sm:w-[200px] sm:h-[200px] w-[180px] h-[180px]  mt-3 transition duration-1000 sm:hover:scale-[1.1]' />
+                      <span className='flashSaleName'>{item.name}</span>
+                      <div className='flex flex-col text-left w-full ml-8'>
+                        <span className='text-red-800 text-xl font-bold'>{item.sale}</span>
+                        <span className='line-through text-gray-400'>{item.price}</span>
+                      </div>
                     </div>
-                  </div>
+                    : null}
                 </SwiperSlide>
               )
             })}
