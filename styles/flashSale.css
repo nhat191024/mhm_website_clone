@@ -10,10 +10,10 @@
 }
 
 
-.productCard{
-    @apply w-[180px] sm:w-[220px] h-[344px] border shadow-md rounded-lg mb-2 mx-2 flex flex-col items-center
+.flashSaleCard{
+    @apply  md:w-[220px] sm:w-[232px] w-[180px]  h-[344px] border shadow-md rounded-lg mb-2 mx-2 flex flex-col items-center
 }
 
-.productCardName {
-    @apply text-lg font-normal text-left mx-4 sm:mt-8 mt-4 sm:hover:text-red-600;
+.flashSaleName {
+    @apply text-lg font-normal text-left mx-4 sm:mt-6 mt-4 sm:hover:text-red-600;
 }

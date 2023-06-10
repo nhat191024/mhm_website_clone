@@ -1,0 +1,46 @@
+@media (max-width: 768px){
+    .shoplocation {
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+    .shoplocation2 {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .saleNewsCustom {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .saleNewsCustom2 {
+        padding-top: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .techNewsTitleCustom {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .newsCustom {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .newsCustom {
+        margin-left: 11px;
+        margin-right: 11px;
+        align-items: center;
+    }
+}
+
+
+
