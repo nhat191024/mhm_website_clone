@@ -2,9 +2,9 @@ import data from '@utils/fakedata.json'
 
 export const GET = async (req) => {
     try {
-        const flashSaleData = data.phonesFlashSale;
+        const tabletData = data.tablets;
 
-        return new Response(JSON.stringify(flashSaleData), {
+        return new Response(JSON.stringify(tabletData), {
             status: 200
         })
     } catch (error) {
