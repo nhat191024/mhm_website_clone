@@ -1,23 +1,12 @@
-"use client"
-
 import '@styles/globals.css';
 import Nav from '@components/navBar'
-import { useEffect } from 'react';
-
+import Footer from '@components/footer'
+import Social from '@components/socialMedia'
 export const metadata = {
   title: 'mhm clone',
   description: 'mhm clone',
 }
 const rootLayout = ({ children }) => {
-  useEffect(() => {
-    const currentHour = new Date().getHours();
-
-    if (currentHour > 18 || currentHour < 6) {
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
-    }
-  }, []);
 
   return (
     <html lang='vi'>
@@ -30,7 +19,9 @@ const rootLayout = ({ children }) => {
         </div>
         <main className="app">
           <Nav />
+          <Social />
           {children}
+          <Footer />
         </main>
       </body>
     </html>
