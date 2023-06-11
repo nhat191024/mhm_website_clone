@@ -2,6 +2,8 @@ import '@styles/globals.css';
 import Nav from '@components/navBar'
 import Footer from '@components/footer'
 import Social from '@components/socialMedia'
+import SaleNew from '@components/saleNew';
+
 export const metadata = {
   title: 'mhm clone',
   description: 'mhm clone',
@@ -21,6 +23,7 @@ const rootLayout = ({ children }) => {
           <Nav />
           <Social />
           {children}
+          <SaleNew />
           <Footer />
         </main>
       </body>
