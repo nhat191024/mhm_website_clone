@@ -10,7 +10,6 @@ const Home = () => {
       <FlashSale />
       <Product />
       <Info />
-
     </section>
   )
 }
