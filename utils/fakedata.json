@@ -929,5 +929,171 @@
             "image": "/shop/trinhxa.png",
             "name": "Minh Hoàng Moblie Trịnh Xá"
         }
+    ],
+    "saleNew": [
+        {
+            "id": 1,
+            "image": "/img/salenews.png",
+            "title": "TƯNG BỪNG KHAI TRƯƠNG CƠ SỞ 15 CỦA MINH HOÀNG MOBILE !!!",
+            "description": "Nhân dịp khai trương cơ sở thứ 15 của hệ thống Minh Hoàng Mobile vào 3 ngày 9-11/6/2023, khi đến tham quan, trải nghiệm và mua sắm tại địa chỉ 601 Ngô Gia Tự - Hải An ...",
+            "date": "08/06/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 2,
+            "image": "/img/salenews2.png",
+            "title": "SALE GIỮA NĂM - RẺ LÀ SẮM !!!",
+            "description": "Sale giữa năm – rẻ là sắm !!! Bạn đang tìm kiếm một địa chỉ chuyên phân phối và cung cấp những sản phẩm công nghệ với giá cả phải chăng mà vẫn đảm bảo về chất lượng? K...",
+            "date": "02/06/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 3,
+            "image": "/img/salenews3.png",
+            "title": "Ở ĐÂU BÁN RẺ - MINH HOÀNG RẺ HƠN !!!",
+            "description": "Ở đâu bán rẻ - Minh Hoàng rẻ hơn !!! Bạn đang tìm kiếm một địa chỉ chuyên cung cấp những sản phẩm công nghệ đảm bảo chất lượng với giá cả phải chăng? Không cần tìm đâu...",
+            "date": "26/05/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 4,
+            "image": "/img/salenews4.png",
+            "title": "MỞ BÁN SỚM - KHUYẾN MẠI LỚN !!!",
+            "description": "Tưng bừng mở bán cơ sở số 15 của Minh Hoàng Mobile: Ưu đãi ngập tràn, hàng ngàn deal sốc !!! Với mong muốn mang đến sự hài lòng cho quý khách hàng bằng những sản ...",
+            "date": "19/05/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 5,
+            "image": "/img/salenews5.png",
+            "title": "MÙA LỄ HỘI - SALE DỮ DỘI !!!",
+            "description": "Hòa cùng không khí rộn ràng mùa lễ hội của những ngày tháng 5 lịch sử, Minh Hoàng Mobile cũng mang đến chương trình giảm giá siêu hấp dẫn đây anh chị em ơi !!! Vô vàn ...",
+            "date": "10/05/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 6,
+            "image": "/img/salenews6.png",
+            "title": "SIÊU SALE 5/5 - SALE TỚI BẾN !!!",
+            "description": "Tháng 5 hè về rồi, cùng đến ngay Minh Hoàng Mobile để mua sắm “giải nhiệt” thôi nào anh chị em ơi !!! Hàng loạt sản phẩm công nghê siêu “hot hit” đến từ những thương h...",
+            "date": "04/05/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 7,
+            "image": "/img/salenews7.png",
+            "title": "SALE TƯNG BỪNG - MỪNG ĐẠI LỄ !!!",
+            "description": "Hòa trong không khí tưng bừng, náo nhiệt của cả nước mừng Ngày độc lập, Minh Hoàng Mobile xin hân hạnh gửi đến những quý khách hàng thân yêu chương trình giảm giá cực ...",
+            "date": "26/04/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 8,
+            "image": "/img/salenews8.png",
+            "title": "HOT SALE CUỐI TUẦN !!!",
+            "description": "Đến hẹn lại “sale”, đến cuối tuần là phải ghé qua Minh Hoàng Mobile để mua sắm “tẹt ga” thôi anh chị em ơi !!! Sức nóng khủng khiếp đến từ những “siêu phẩm” công nghệ ...",
+            "date": "21/04/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 9,
+            "image": "/img/salenews9.png",
+            "title": "TƯNG BỪNG ĐỒNG KHAI TRƯƠNG MINH HOÀNG MOBILE CƠ SỞ 13 VÀ 14 !!!",
+            "description": "Nhân dịp đồng khai trương cơ sở thứ 13 và 14 của hệ thống Minh Hoàng Mobile vào 3 ngày 14-16/4/2023, khi đến tham quan, trải nghiệm và mua sắm tại 2 địa chỉ: số 17 khu...",
+            "date": "11/04/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        }
+    ],
+    "techNew": [
+        {
+            "id": 1,
+            "image": "/img/technewsb1.png",
+            "title": "NHỮNG ĐIỀU KHIẾN CHO APPLE VISION PRO KHÔNG ĐÁP ỨNG ĐƯỢC KÌ VỌNG CỦA NGƯỜI DÙNG",
+            "description": "Trong bài viết này, chúng ta sẽ xem xét những điều khiến người dùng không thích về Apple Vision Pro. Mặc dù sản phẩm này đã được Apple giới thiệu với nhiều tính năng v...",
+            "date": "11/06/23",
+            "author": "Thắng Ngọc",
+            "cmt": "0"
+        },
+        {
+            "id": 2,
+            "image": "/img/technewsb2.png",
+            "title": "TECNO SPARK GO 2023: THIẾT KẾ TRẺ TRUNG, HELIO A22 ĐỦ DÙNG NHƯNG GIÁ HẠT DẺ.",
+            "description": "Tecno Spark Go 2023 là một chiếc điện thoại thông minh đáng chú ý với thiết kế trẻ trung và tính năng đa dạng. Với chip xử lý Helio A22 mạnh mẽ, máy đảm bảo hiệu suất ...",
+            "date": "11/06/23",
+            "author": "Thắng Ngọc",
+            "cmt": "0"
+        },
+        {
+            "id": 3,
+            "image": "/img/technewsb3.png",
+            "title": "BAY BƯỚC VÀO KHÔNG GIAN ĐỘC ĐÁO GÕ VĂN BẢN VỚI BÀN PHÍM ẢO LƠ LỬNG TRÊN KÍNH APPLE VISI...",
+            "description": "Trong thời đại công nghệ ngày nay, việc gõ văn bản đã trở nên phổ biến và quan trọng hơn bao giờ hết. Với sự ra đời của kính Apple Vision Pro, người dùng được trải ngh...",
+            "date": "10/06/2023",
+            "author": "Thắng Ngọc",
+            "cmt": "0"
+        },
+        {
+            "id": 4,
+            "image": "/img/technewsb4.png",
+            "title": "BẢN CẬP NHẬT WATCHOS 10 SẼ MANG ĐẾN NHỮNG GÌ MỚI MẺ VÀ THÚ VỊ CHO NGƯỜI DÙNG APPLE WATC...",
+            "description": "Bản cập nhật watchOS 10 của Apple đã chính thức được ra mắt với một số cải tiến tuyệt vời dành cho người dùng Apple Watch. Trong bài viết dưới đây, Minh Hoàng Mob...",
+            "date": "10/06/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 5,
+            "image": "/img/technewsb5.png",
+            "title": "ĐÃ ĐẾN LÚC APPLE RA MẮT 1 MẪU IPHONE CAO CẤP HƠN PRO MAX, BẠN CÓ MONG ĐỢI HAY KHÔNG ???",
+            "description": "Hòa cùng không khí rộn ràng mùa lễ hội của những ngày tháng 5 lịch sử, Minh Hoàng Mobile cũng mang đến chương trình giảm giá siêu hấp dẫn đây anh chị em ơi !!! Vô vàn ...",
+            "date": "10/06/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        },
+        {
+            "id": 6,
+            "image": "/img/technewsb6.png",
+            "title": "APPLE RA MẮT VISION PRO – KÍNH THỰC TẾ ẢO ĐẦU TIÊN CỦA HÃNG TẠI SỰ KIỆN WWDC 2023",
+            "description": "WWDC là hội nghị các nhà phát triển toàn cầu của Apple. Hội nghị này được diễn ra hàng năm nhằm giới thiệu các sản phẩm công nghệ mới. Tại WWDC năm nay (2023), hãng đã...",
+            "date": "04/05/23",
+            "author": "08/06/23",
+            "cmt": "0"
+        },
+        {
+            "id": 7,
+            "image": "/img/technewsb7.png",
+            "title": "4 TÍNH NĂNG CỦA ANDROID ĐƯỢC IOS 17 ÁP DỤNG THEO",
+            "description": "Tại sự kiện WWDC 2023 mới đây, Apple đã cho ra mắt hệ điều hành iOS 17. Ngoài những tính năng tự nghiên cứu và phát triển thì nhà “táo khuyết” cũng có ọc hỏi một số tí...",
+            "date": "08/06/23",
+            "author": "mhm2022",
+            "cmt": "0"
+        },
+        {
+            "id": 8,
+            "image": "/img/technewsb8.png",
+            "title": "Dưới sự ra đời của Chatbot AI -  ChatGPT đã đem lại nhiều thay đổi trong giới công nghệ. Lợi ích mà phần mềm trí tuệ nhân tạo này đem lại là vô cùng lớn. Nó cùng ...",
+            "description": "TRONG THỜI GIAN TỚI RẤT CÓ KHẢ NĂNG CHATBOT AI ĐỘC QUYỀN CỦA INSTAGRAM SẼ ĐƯỢC RA MẮT",
+            "date": "08/06/23",
+            "author": "mhm2022",
+            "cmt": "0"
+        },
+        {
+            "id": 9,
+            "image": "/img/technewsb9.png",
+            "title": "TẠI SAO NGƯỜI DÙNG IPHONE ĐANG NGÀY CÀNG CÓ XU HƯỚNG DÙNG MÁY TRẦN???",
+            "description": "Đa số các mẫu iPhone đều có khả năng chống rơi và trầy xước tốt hơn so với những thiết bị smartphone khác, tuy nhiên đó không phải là lý do khiến người dùng đang có xu...",
+            "date": "08/06/23",
+            "author": "Minh Hoàng Mobile",
+            "cmt": "0"
+        }
     ]
 }
