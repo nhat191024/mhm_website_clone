@@ -1,0 +1,11 @@
+.newsCard {
+    @apply md:w-[370px] h-[400px] w-[350px] border rounded-md relative
+}
+
+.newsCardImage {
+    @apply rounded-t-md h-[190px] w-full
+    
+}
+.newsCardinfo {
+    @apply w-full h-10 border-t-2 flex justify-start items-center gap-1 pl-2 absolute bottom-0
+}
