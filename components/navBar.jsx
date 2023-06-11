@@ -83,31 +83,31 @@ const navBar = () => {
                 </button>
             </div>
             <div className="xl:flex xl:items-center md:grid hidden grid-cols-4 lg:gap-1 gap-2 text-white font-semibold font-sanpro text-xs pb-6">
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group" onMouseEnter={handlePhoneMouseEnter} onMouseLeave={handlePhoneMouseLeave}>
+                <Link href="/phone" className="xl:mr-3 shrink-0 mx-auto group" onMouseEnter={handlePhoneMouseEnter} onMouseLeave={handlePhoneMouseLeave}>
                     <img src="/icons/phone.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     ĐIỆN THOẠI
                 </Link>
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group" onMouseEnter={handleLaptopMouseEnter} onMouseLeave={handleLaptopMouseLeave}>
+                <Link href="/tablet_laptop" className="xl:mr-3 shrink-0 mx-auto group" onMouseEnter={handleLaptopMouseEnter} onMouseLeave={handleLaptopMouseLeave}>
                     <img src="/icons/tablet_laptop.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     TABLET/LAPTOP
                 </Link>
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group" onMouseEnter={handleAccessoryMouseEnter} onMouseLeave={handleAccessoryMouseLeave}>
+                <Link href="/accessory" className="xl:mr-3 shrink-0 mx-auto group" onMouseEnter={handleAccessoryMouseEnter} onMouseLeave={handleAccessoryMouseLeave}>
                     <img src="/icons/accessory.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     PHỤ KIỆN
                 </Link>
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group">
+                <Link href="/sim" className="xl:mr-3 shrink-0 mx-auto group">
                     <img src="/icons/sim.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     SIM SỐ
                 </Link>
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group">
+                <Link href="/sale" className="xl:mr-3 shrink-0 mx-auto group">
                     <img src="/icons/sale.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     KHUYẾN MÃI
                 </Link>
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group">
+                <Link href="/news" className="xl:mr-3 shrink-0 mx-auto group">
                     <img src="/icons/news.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     TIN TỨC
                 </Link>
-                <Link href="./" className="xl:mr-3 shrink-0 mx-auto group">
+                <Link href="/salePhone" className="xl:mr-3 shrink-0 mx-auto group">
                     <img src="/icons/phone.png" alt="phone icon" width={30} height={30} className='navIcon' />
                     MÁY THANH LÝ
                 </Link>
@@ -217,7 +217,7 @@ const navBar = () => {
 
                 {toggleDropdown && (
                     <div className="absolute right-0 top-full mt-3 w-full p-5 rounded-lg min-w-[300px] flex flex-col gap-6 justify-start items-start bg-black/60 border-2 border-white z-10">
-                        <Link href="/" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
+                        <Link href="/phone" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
                         >
                             ĐIỆN THOẠI
                             <Image
@@ -228,7 +228,7 @@ const navBar = () => {
                                 className=" ml-[146px]"
                             />
                         </Link>
-                        <Link href="/" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
+                        <Link href="/tablet_laptop" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
                             onClick={() => setToggleDropdown(false)}>
                             TABLET/LAPTOP
                             <Image
@@ -239,7 +239,7 @@ const navBar = () => {
                                 className=" ml-[120px]"
                             />
                         </Link>
-                        <Link href="/" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
+                        <Link href="/accessory" className="text-sm font-sanpro text-white hover:text-gray-500 font-bold flex items-center"
                             onClick={() => setToggleDropdown(false)}>
                             PHỤ KIỆN
                             <Image
@@ -250,16 +250,16 @@ const navBar = () => {
                                 className=" ml-40"
                             />
                         </Link>
-                        <Link href="/" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
+                        <Link href="/sim" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
                             SIM SỐ
                         </Link>
-                        <Link href="/" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
+                        <Link href="/sale" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
                             KHUYẾN MÃI
                         </Link>
-                        <Link href="/" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
+                        <Link href="/news" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
                             TIN TỨC
                         </Link>
-                        <Link href="/" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
+                        <Link href="/salePhone" className="dropdown_link" onClick={() => setToggleDropdown(false)}>
                             MÁY THANH LÝ
                         </Link>
                     </div>
