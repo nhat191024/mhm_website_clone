@@ -9,7 +9,7 @@ const footer = () => {
         <div className='bg-white w-full md:h-[1360px] sm:h-[2660px] h-[2900px] absolute opacity-80' />
 
         {/* footer */}
-        <div className='md:w-[1200px] md:h-[1100px] w-[768px] h-[2400px] z-10'>
+        <div className='md:w-[1200px] md:h-[1100px] sm:w-[768px] w-[410px] h-[2400px] z-10'>
 
           {/* shop */}
           <div className='mt-10 md:ml-0 sm:ml-10 mx-2'>
