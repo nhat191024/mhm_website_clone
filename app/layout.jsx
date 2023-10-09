@@ -16,13 +16,13 @@ const rootLayout = ({ children }) => {
     <html lang='vi'>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <GoogleAnalytics />
       </head>
       <body>
         <div className="">
           <div className=' bg-secondary-color' />
         </div>
         <main className="app">
-          <GoogleAnalytics />
           <Nav />
           <Social />
           {children}
