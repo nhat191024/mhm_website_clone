@@ -7,6 +7,7 @@ import SaleNew from '@components/saleNew';
 export const metadata = {
   title: 'mhm clone',
   description: 'mhm clone',
+  
 }
 const rootLayout = ({ children }) => {
 
@@ -14,6 +15,15 @@ const rootLayout = ({ children }) => {
     <html lang='vi'>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KX3B52PJD1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-KX3B52PJD1');
+            </script>
       </head>
       <body>
         <div className="">
